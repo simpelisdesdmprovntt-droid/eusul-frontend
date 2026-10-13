@@ -1,5 +1,5 @@
 // URL API SERVER GOOGLE ANDA
-const API_URL = "https://script.google.com/macros/s/AKfycbwe_RnvSmN8Le754tOC_1TJpidfa-Akk6oLYCOZMbK-HDgpt32p-qZU1qKCq6c73j7C/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbxoU5ZUfU2KtNeaLCt_7aUdIZk8fSGvg-yO5BXKyFHb0QzECYC5vgWhgoWNPEK-ej7A/exec";
 let globalDusunId = 0; 
 let dusunCount = 0; 
 let masterWilayah = {};
