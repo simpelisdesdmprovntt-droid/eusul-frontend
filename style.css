@@ -165,23 +165,29 @@ input[readonly], input:disabled, select:disabled {
 .btn-tambah:active { box-shadow: inset 4px 4px 8px var(--shadow-dark), inset -4px -4px 8px var(--shadow-light); }
 
 .btn-hapus { 
-  background-color: var(--bg-color); 
-  color: var(--danger); 
+  background-color: transparent; 
+  color: #d9534f; 
   border: none; 
   padding: 8px 16px; 
-  font-size: 0.85em; 
-  border-radius: 20px; 
+  font-size: 1.05em; 
+  border-radius: 8px; 
   font-weight: bold; 
   position: absolute; 
-  right: 48px; 
+  right: 25px; 
   top: 50%; 
   transform: translateY(-50%); 
   z-index: 20; 
-  box-shadow: 3px 3px 6px var(--shadow-dark), -3px -3px 6px var(--shadow-light); 
   transition: all 0.2s; 
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
-.btn-hapus:active { box-shadow: inset 3px 3px 6px var(--shadow-dark), inset -3px -3px 6px var(--shadow-light); }
-
+.btn-hapus:hover {
+  background-color: rgba(217, 83, 79, 0.1);
+}
+.btn-hapus:active { 
+  transform: translateY(-50%) scale(0.95);
+}
 .btn-submit { 
   background-color: var(--accent-teal); 
   color: white; 
